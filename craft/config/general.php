@@ -14,9 +14,10 @@ return array(
   ),
   'local' => array(
   	'devMode' => true,
+  	'siteUrl' => 'http://local.dimamarkus.com',
 	),
   'production' => array(
-
+  	'siteUrl' => 'http://dimamarkus.com',
   ),
 );
 
