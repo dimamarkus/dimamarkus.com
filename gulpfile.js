@@ -38,7 +38,7 @@ gulp.task('browserSync', function() {
 });
 
 gulp.task('sass', function() {
-  return sass('craft/templates/assets/scss/main.scss', {
+  return sass('craft/templates/assets/sass/main.scss', {
     container: "gulp-ruby-sass-api",
     sourcemap: true,
     style: 'nested',
