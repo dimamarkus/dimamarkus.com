@@ -1,0 +1,18 @@
+{% include "00-atoms/meta/_head" %}
+
+	<div id="container">
+
+		{% include "02-organisms/global/header" %}
+
+		{% include "01-molecules/navigation/primary-nav" %}
+
+		<main id="content" role="main">
+			{% block content %}
+			{% endblock %}
+		</main>
+
+		{% include "02-organisms/global/footer" %}
+
+	</div>
+
+{% include "00-atoms/meta/_foot" %}

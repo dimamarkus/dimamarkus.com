@@ -19,5 +19,5 @@
  */
 
 return array(
-
+	'posts' => '03-templates/posts/index',
 );

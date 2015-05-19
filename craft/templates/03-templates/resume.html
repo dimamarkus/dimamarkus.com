@@ -1,0 +1,24 @@
+{% extends "_layout" %}
+{% set title = "Dima Markus | Resume" %}
+
+{% block content %}
+
+	<div class="clearfix">
+	  <div class="sm-col sm-col-12 md-col-12 lg-col-12">
+			{% include "patterns/02-organisms/04-resume/00-summary" %}
+	  </div>
+	  <div class="sm-col sm-col-12 md-col-12 lg-col-12">
+			{% include "patterns/02-organisms/04-resume/01-contact" %}
+	  </div>
+	  <div class="sm-col sm-col-12 md-col-12 lg-col-12">
+			{% include "patterns/02-organisms/04-resume/02-experience" %}
+	  </div>
+	  <div class="sm-col sm-col-12 md-col-12 lg-col-12">
+			{% include "patterns/02-organisms/04-resume/03-education" %}
+	  </div>w
+	  <div class="sm-col sm-col-12 md-col-12 lg-col-12">
+			{% include "patterns/02-organisms/04-resume/04-skills" %}
+	  </div>
+	</div>
+
+{% endblock %}

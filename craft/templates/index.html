@@ -17,16 +17,19 @@
  # http://buildwithcraft.com/docs/routing
  #}
 
-{% extends "_layout" %}
+{% extends "03-templates/default" %}
 
 {% block content %}
+
+	<hr>
+
 	<h1>{{ entry.title }}</h1>
 
 	{{ entry.body }}
 
-	<h2>Recent News</h2>
+	<h2>Posts</h2>
 	<ul>
-		{% for entry in craft.entries.section('news').limit(5).find() %}
+		{% for entry in craft.entries.section('posts').limit(5).find() %}
 			<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
 		{% endfor %}
 	</ul>

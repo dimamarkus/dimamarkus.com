@@ -11,6 +11,7 @@ return array(
   '*' => array(
 		'appId'       => 'dimamarkus.com',
 		'cacheMethod' => 'redis',
+    'omitScriptNameInUrls' => true,
   ),
   'local' => array(
   	'devMode' => true,

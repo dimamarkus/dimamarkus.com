@@ -1,0 +1,24 @@
+{% extends "03-templates/default" %}
+{% set title = "Dima Markus | Resume" %}
+
+{% block content %}
+
+	<div class="clearfix">
+	  <div class="sm-col sm-col-12 md-col-12 lg-col-12">
+			{% include "02-organisms/resume/summary" %}
+	  </div>
+	  <div class="sm-col sm-col-12 md-col-12 lg-col-12">
+			{% include "02-organisms/resume/contact" %}
+	  </div>
+	  <div class="sm-col sm-col-12 md-col-12 lg-col-12">
+			{% include "02-organisms/resume/experience" %}
+	  </div>
+	  <div class="sm-col sm-col-12 md-col-12 lg-col-12">
+			{% include "02-organisms/resume/education" %}
+	  </div>w
+	  <div class="sm-col sm-col-12 md-col-12 lg-col-12">
+			{% include "02-organisms/resume/skills" %}
+	  </div>
+	</div>
+
+{% endblock %}
